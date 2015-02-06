@@ -1,0 +1,33 @@
+{
+  "name": "finance-scraper-js",
+  "version": "0.0.1",
+  "description": "scraping enterprise list from nasdaq and their fundamentals from Yahoo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "finance",
+    "fundamentals",
+    "nasdaq",
+    "yahoo finance"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goemondo/finance-scraper-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/goemondo/finance-scraper-js/issues"
+  },
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "request": "^2.51.0",
+    "omotenashi-js": "latest"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "should": "^4.2.1"
+  },
+  "author": "goemondo",
+  "license": "MIT"
+}
