@@ -61,7 +61,7 @@ nasdaq.getCompaniesList(function (error, list, ...) {
 
 ```javascript
 // yahoo
-var yahoo = require("finance-scraper-js").nasdaq;
+var yahoo = require("finance-scraper-js").yahoo;
 
 /*
  * get valid symbol
